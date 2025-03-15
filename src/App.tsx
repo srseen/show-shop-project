@@ -1,8 +1,8 @@
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import { BrowserRouter, Routes, Route } from "react-router";
-import ProductList from "./pages/ProductList";
+import ProductList from "./pages/ProductPage";
 import MainLayout from "./layout/MainLayout";
-import Home from "./pages/Home";
+import Home from "./pages/HomePage";
 
 function App() {
   return (

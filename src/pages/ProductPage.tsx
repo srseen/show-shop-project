@@ -1,7 +1,7 @@
 import ProductCard from "@/components/ui/ProductCard";
 import { products } from "@/data/products";
 
-const ProductList = () => {
+const ProductPage = () => {
   return (
     <div className="p-10 flex flex-col justify-center items-center">
       <h1 className="text-3xl font-bold mb-6">สินค้าทั้งหมด</h1>
@@ -14,4 +14,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default ProductPage;
